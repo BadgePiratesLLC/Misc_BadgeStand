@@ -686,6 +686,11 @@
     (uuid fea2644d-1dc0-4a76-aad2-24a6b6aa2bed)
   )
 
+  (label "ADJ" (at 160.02 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 573a09f3-927c-490f-99ea-a5a8ba9f7a86)
+  )
+
   (symbol (lib_id "Pivot_stand-rescue:USB_B_Micro-Connector") (at 113.03 71.12 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060e39c54)
@@ -863,7 +868,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 134.62 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060fab1c6)
-    (property "Reference" "I/O" (id 0) (at 134.62 58.801 0))
+    (property "Reference" "I/O1" (id 0) (at 134.62 58.801 0))
     (property "Value" "SW_DPDT_x2" (id 1) (at 134.62 61.1124 0))
     (property "Footprint" "BadgePirates:SW_SPDT_PCM12" (id 2) (at 134.62 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1024,7 +1029,7 @@
       (reference "C3") (unit 1) (value "0.1uF") (footprint "BadgePirates:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-000060fab1c6"
-      (reference "I/O") (unit 1) (value "SW_DPDT_x2") (footprint "BadgePirates:SW_SPDT_PCM12")
+      (reference "I/O1") (unit 1) (value "SW_DPDT_x2") (footprint "BadgePirates:SW_SPDT_PCM12")
     )
     (path "/00000000-0000-0000-0000-000060e39c54"
       (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Wuerth_629105150521")
